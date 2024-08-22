@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+}
+
+.textdiv {
+  margin-block: 20px;
+  text-align: center;
+}
+
+.maindiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.maindiv .simonGame {
+  height: 500px;
+  width: 500px;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+}
+.maindiv .simonGame .lineone {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.maindiv .simonGame .lineone .divone {
+  border: 5px solid black;
+  border-radius: 20px;
+  height: 100%;
+  width: 50%;
+  background-color: #414141;
+}
+.maindiv .simonGame .lineone .divtwo {
+  border: 5px solid black;
+  border-radius: 20px;
+  height: 100%;
+  width: 50%;
+  background-color: #f67a7a;
+}
+.maindiv .simonGame .lineone .gameflash {
+  background-color: #ffffff;
+}
+.maindiv .simonGame .lineone .userflash {
+  background-color: rgb(103, 157, 103);
+}
+.maindiv .simonGame .linetwo {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+.maindiv .simonGame .linetwo .divthree {
+  border-radius: 20px;
+  border: 5px solid black;
+  height: 100%;
+  width: 50%;
+  background-color: #560101;
+}
+.maindiv .simonGame .linetwo .divfour {
+  border-radius: 20px;
+  border: 5px solid black;
+  height: 100%;
+  width: 50%;
+  background-color: #198bf5;
+}
+.maindiv .simonGame .linetwo .gameflash {
+  background-color: #ffffff;
+}
+.maindiv .simonGame .linetwo .userflash {
+  background-color: rgb(114, 164, 114);
+}/*# sourceMappingURL=style.css.map */

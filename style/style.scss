@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+}
+.textdiv{
+    margin-block: 20px;
+text-align: center;
+}
+.maindiv{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+.simonGame{
+    height: 500px;
+    width: 500px;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    
+    .lineone{
+        
+        height: 50%;
+        width: 100%;
+        display: flex;
+        gap: 10px;
+        margin-bottom: 10px;
+        .divone{
+            border: 05px solid black;
+            border-radius: 20px;
+            height: 100%;
+            width: 50%;
+            background-color: #414141;
+        }
+        .divtwo{
+            border: 5px solid black;
+            border-radius: 20px;
+            height: 100%;
+            width: 50%;
+            background-color: #f67a7a;
+            
+        }
+        .gameflash{
+            background-color: #ffffff;
+        }
+        .userflash{
+            background-color: rgb(103, 157, 103);
+        }
+    }
+    .linetwo{
+        height: 50%;
+        width: 100%;
+        display: flex;
+        gap: 10px;
+        .divthree{
+            border-radius: 20px;
+            border: 5px solid black;
+            height: 100%;
+            width: 50%;
+            background-color: #560101;
+        }
+        .divfour{
+            border-radius: 20px;
+            border: 5px solid black;
+            height: 100%;
+            width: 50%;
+            background-color: #198bf5;
+        }
+        .gameflash{
+            background-color: #ffffff;
+        }
+        .userflash{
+            background-color: rgb(114, 164, 114);
+        }
+    }
+  
+}
+}
